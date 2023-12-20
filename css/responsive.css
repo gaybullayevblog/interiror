@@ -1,0 +1,75 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    /* nav start */
+    .container nav {
+        display: flex;
+        visibility: hidden;
+    }
+
+    /* main start */
+    .container .main {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .container .main h1 {
+        font-size: 50px;
+    }
+
+    .container .main p {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    /* about start */
+    .container .about {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .about .about-card{
+        width: 100%;
+        height: 150px;
+    }
+
+    /* sliders start */
+
+    .container .sliders{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container .sliders h1{
+        font-size: 40px;
+    }
+
+    .container .sliders p{
+        font-size: 18px;
+    }
+
+    .container .sliders .slider-card{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container .sliders .slider-card .slider{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container .sliders .slider-card .slider .image{
+        width: 95%;
+
+    }
+}
